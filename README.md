@@ -1,4 +1,4 @@
-To set up the code you provided in a new system, you'll need to follow these steps:
+
 
 1. Install Required Packages:
    Ensure that you have Python installed on your new system. You can download and install Python from the official Python website (https://www.python.org/downloads/). The code you provided uses the `pyodbc` library for working with SQL Server databases and `tkinter` for creating a GUI. Install these packages using pip:
