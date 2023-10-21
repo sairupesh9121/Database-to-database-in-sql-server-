@@ -34,3 +34,27 @@
 Make sure you have the necessary permissions and network access to connect to the source and target databases. Additionally, ensure that your SQL Server is properly configured to accept connections.
 
 If you encounter any issues or errors during setup or execution, please provide more specific details about the problems you face for further assistance.
+To convert in to exe 
+To convert your Python script into a standalone Windows executable (`.exe`), you can use a tool like PyInstaller. PyInstaller bundles your Python script, its dependencies, and a Python interpreter into a single executable file. Follow these steps to convert your Python script into an executable:
+
+1. Install PyInstaller:
+   Open a command prompt and run the following command to install PyInstaller using pip:
+   ```
+   pip install pyinstaller
+   ```
+
+2. Navigate to the directory where your Python script is located.
+
+3. Create the executable:
+   Run the following command to create the executable. Replace `your_script.py` with the name of your Python script.
+
+   ```
+   pyinstaller --onefile your_script.py
+   ```
+
+   This command will create a `dist` directory in your script's directory, and inside it, you'll find your standalone executable. The `--onefile` option specifies that you want a single `.exe` file as the output.
+
+4. Find the executable:
+   Once the process is complete, you'll find the executable in the `dist` directory. It will have the same name as your script but with the `.exe` extension.
+
+
